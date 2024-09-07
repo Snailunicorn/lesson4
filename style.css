@@ -1,0 +1,38 @@
+p.main strong a {
+  font-size: 28px;
+  color: red;
+  }
+
+  p.main > a {
+    font-size: 20px;
+    color: green;
+    background: yellow;
+    }
+
+    p.main em + a {
+      font-size: 20px;
+      color: rgb(31, 255, 61);
+      background: rgb(0, 0, 0);
+      }
+    
+    #none {
+      background-color: brown;
+      color: white;
+    }
+    li:last-child {
+      color: blueviolet;
+    }
+
+    li:nth-child(2) {
+      color: red;
+    }
+
+    li.format em {
+      color: yellow;
+      background-color: yellow;
+    }
+
+    li.format strong {
+      color: green;
+    }
+    .format {}
